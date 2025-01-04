@@ -1,4 +1,4 @@
-# Проект Scrapy Python
+# Проект scrapy-tutorial
 
 Этот проект представляет собой веб-скрейпер на основе Scrapy, предназначенный для извлечения данных с веб-сайтов. Пример реализации демонстрирует парсинг цитат с сайта [quotes.toscrape.com](http://quotes.toscrape.com).
 
@@ -24,8 +24,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-repo/scrapy-python.git
-   cd scrapy-python
+   git clone git@github.com:Tousty-Dzmitry/scrapy-tutorial.git
+   cd scrapy-tutorial
    ```
 
 2. Создайте и активируйте виртуальное окружение (опционально, но рекомендуется):
