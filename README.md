@@ -68,7 +68,7 @@ scrapy crawl quotes
 ```
 scrapy-python/
 ├── scrapy.cfg                 # Конфигурационный файл Scrapy
-├── scrapy_python/             # Основной пакет проекта
+├── scrapy-tutorial/             # Основной пакет проекта
 │   ├── __init__.py
 │   ├── items.py               # Определение моделей элементов
 │   ├── middlewares.py         # Пользовательские middlewares
@@ -103,7 +103,7 @@ scrapy-python/
 - **Конвейеры обработки данных**:
   ```python
   ITEM_PIPELINES = {
-      "scrapy_python.pipelines.ScrapyPythonPipeline": 300,
+      "scrapy-tutorial.pipelines.ScrapyPythonPipeline": 300,
   }
   ```
 
