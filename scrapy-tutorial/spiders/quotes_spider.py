@@ -35,7 +35,7 @@ class QuotesSpider(scrapy.Spider):
             yield {
                 'text': quote.css('span.text::text').get(),
                 'author': quote.css('small.author::text').get(),
-                'tags': quote.css('div.tags a.tag::text').getall(),
+                # 'tags': quote.css('div.tags a.tag::text').getall(),
          }
 
 
