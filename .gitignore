@@ -1,35 +1,41 @@
-# Игнорируем папки виртуального окружения
-venv/
-env/
-
-# Игнорируем временные файлы
-*.pyc
-*.pyo
-*.pyd
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
 
-# Игнорируем логи
+# Scrapy
+*.scrapy/
+output/
+feeds/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Виртуальное окружение
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и отладка
 *.log
 *.out
 *.err
 
-# Игнорируем файлы вывода Scrapy
-*.json
-*.jl
-*.csv
-*.xml
-*.sqlite
+# Сборочные файлы
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
 
-# Игнорируем настройки IDE
-.idea/
-.vscode/
-*.sublime-workspace
-*.sublime-project
-
-# Игнорируем системные файлы
-.DS_Store
-Thumbs.db
-
-# Игнорируем дополнительные файлы
-.scrapy/      # Временные файлы Scrapy (кеш, баны и т.д.)
-.env          # Файлы с переменными окружения
+# Общие исключения
+.python-version
