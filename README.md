@@ -106,7 +106,3 @@ scrapy-python/
       "scrapy-tutorial.pipelines.ScrapyPythonPipeline": 300,
   }
   ```
-
-## Лицензия
-
-Этот проект лицензирован под лицензией MIT. См. файл LICENSE для деталей.
